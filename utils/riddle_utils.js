@@ -34,3 +34,14 @@ export function measureSolveTime(fn){
   
 }
 
+export function filterRiddlesByDifficulty(riddles, difficulty) {
+    const difficultyLevels = { "EASY": 1, "MEDIUM": 2, "HARD": 3 };
+    let maxLevel = difficultyLevels[difficulty];
+    return riddles.filter(riddle => difficultyLevels[riddle.difficulty] <= maxLevel);
+
+}
+
+
+
+
+
