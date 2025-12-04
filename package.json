@@ -1,0 +1,24 @@
+{
+  "name": "riddle-game-test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yehouda-12/Riddle-Game-Test#readme",
+  "bugs": {
+    "url": "https://github.com/Yehouda-12/Riddle-Game-Test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yehouda-12/Riddle-Game-Test.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {}
+}
