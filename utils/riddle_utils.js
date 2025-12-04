@@ -26,8 +26,8 @@ export function askRiddle(riddleObj) {
 
 export function measureSolveTime(fn){
     let start = Date.now();
-    let paramForFn = ''
-    fn(paramForFn)
+    
+    fn()
     let end = Date.now();
     let difference = (end - start) /1000;
     return difference;
